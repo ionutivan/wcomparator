@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/bootstrap";
+$enable-responsive-font-sizes: true;
+
+.h1 {
+	@include font-size(2.5rem);
+}
+
+.h2 {
+	@include font-size(2rem);
+}
+
+.h3 {
+	@include font-size(1.75rem);
+}
+
+.h5 {
+	@include font-size(1.25rem);
+}
+
+.row-header-margin {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.product-name-container {
+	padding-right: 0;
+    padding-left: 0;
+}
+
+.bottom-product-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row-background-container {	
+	opacity: 1;
+	background-color: white;
+}
